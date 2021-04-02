@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    background-color: #FBF0F1;
+    color: #557E80;
+    margin: 25px;
+    padding: 35px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Montserrat, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2, h3{ 
+    color: #6E3BAD;
+}
+h2{
+    font-size: 30px;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+}
+
+.my-photo{
+    width: 250px;
+    background-color: #6E3BAD;
+    border-radius: 60%;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    padding: 5px;
+}
+.desc{
+    font-size: 22px;
+}
+
+.indice{
+    margin: 16px;
+    text-align: center;
+}
+
+.indice a {
+    color: #557E80;;
+    font-size: 22px;
+    line-height: 28px;
+    margin-right: 32px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.indice a:hover{    
+    color: #71FF61;;
+}
+
+.lista, #hobbies{
+    list-style-position: inside;
+}
+
+.skills {
+    display: flex;
+    padding: 8px;
+}
+
+.skills p {
+    display: flex;
+    margin: 8px;
+}
+
+.contact a{
+    text-decoration: none;
+    text-align: center;
+    color: #557E80;
+}
+
+.contact a:hover{
+    color: #71FF61;
+}
+
+#menu li{ 
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+#subir{
+    background: #71FF61;
+    color: #FFBE94;
+    margin-top: 52px;
+    text-align: center;
+}
+
+.projects {
+    margin-bottom: 10px;
+}
+
+.str {
+    width: 400px;
+}
+
+.str:hover{
+    border: 2px solid #71FF61;
+}
+
+.links {
+    margin-top: 8px;
+}
