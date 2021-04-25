@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;500;600&display=swap');
+
+.main {
+  font-family: Lexend, sans-serif;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(6, 14, 121, 1),
+    rgba(36, 194, 206, 0.5)
+  );
+}

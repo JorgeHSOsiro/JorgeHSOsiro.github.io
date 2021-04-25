@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;500;600&display=swap');
+
+.mainContainer{
+    color: #d3dddd;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.title {
+    margin-top: 132px;
+    margin-bottom: 138px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title :first-child {
+    margin-bottom: 24px;
+    font-size: 3rem;
+}
+
+.subtitles {
+    color: #d3dddd;
+    margin: 25px;
+    font-size: 35px;
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 25px;
+}
+
+.icons {
+    background: #d3dddd;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+    color: #6E3BAD;
+    font-size: 32px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.icon {
+    display: flex;
+    align-self: center;
+}

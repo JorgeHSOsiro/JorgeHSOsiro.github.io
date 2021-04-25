@@ -1,0 +1,20 @@
+.links {
+    margin-top: 8px;
+    background-image: linear-gradient(to right, rgba(80, 87, 180, 0.85), rgba(36, 194, 206, 0.5));
+    padding: 0 25px;
+    border-top: 5px rgba(8, 153, 179, 0.411) double;
+}
+
+.contactIcon {
+    display: inline-block;
+    font-size: 42px;
+    margin: 25px;
+}
+
+.contactIcon :first-child {
+    color: aliceblue;
+}
+
+.contactIcon :first-child:hover{
+    color: #71FF61;
+}

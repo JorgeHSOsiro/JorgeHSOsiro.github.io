@@ -1,0 +1,8 @@
+.myPhoto{
+    width: 250px;
+    background-color: #6E3BAD;
+    border-radius: 60%;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    padding: 5px;
+}
