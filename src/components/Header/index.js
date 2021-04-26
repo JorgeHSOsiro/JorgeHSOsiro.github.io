@@ -8,8 +8,7 @@ export default function Header() {
   return (
     <div className={styles.indice}>
       <Link to="/"><GiCat />Home</Link>
-      <Link to="/">Sobre</Link>
-      <Link to="/">Projetos</Link>
+      <Link to="/projects">Projetos</Link>
     </div>
   );
 }

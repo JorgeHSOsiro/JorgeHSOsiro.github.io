@@ -1,7 +1,5 @@
 import React from 'react';
 
-import strangerTh from '../../assets/stranger-things.jpg';
-
 export default function Projects() {
   return (
     <div class="projects">
