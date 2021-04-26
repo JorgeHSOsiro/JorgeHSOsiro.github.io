@@ -21,7 +21,7 @@ export default function Landing() {
       <div className={styles.title}>
         <h1>Jorge Henrique Shiniti Osiro</h1>
         <h2>Desenvolvedor FullStack</h2>
-        <div>
+        <div className={styles.imgContainer}>
           <img
             className={styles.myPhoto}
             src={portFoto}
