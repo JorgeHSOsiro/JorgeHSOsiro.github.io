@@ -1,0 +1,11 @@
+.mainProjContainer h2 {
+  color: #d3dddd;
+  margin: 25px;
+  font-size: 35px;
+}
+
+.projectContainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

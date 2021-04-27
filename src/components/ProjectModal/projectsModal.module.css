@@ -1,0 +1,67 @@
+.projImage {
+  border-radius: 10px;
+  width: 50%;
+  height: 300px;
+  margin: 15px;
+}
+
+.modal {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(6, 14, 121, 1),
+    rgba(82, 89, 196, 0.973)
+  );
+  color: #d3dddd;
+  padding: 32px;
+  margin: 55px;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+.modal h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.descriptionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.descriptionContent p {
+  font-size: 24px;
+}
+
+.projectGit {
+  font-size: 52px;
+}
+
+.projectGit :first-child {
+  color: #d3dddd;
+}
+
+.projectGit :first-child:hover {
+  color: #71ff61;
+}
+
+.iframeTube {
+  width: 1000px;
+  height: 550px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 32px;
+  color: #d3dddd;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 45px;
+  cursor: pointer;
+}
