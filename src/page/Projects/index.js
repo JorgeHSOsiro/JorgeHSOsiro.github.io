@@ -4,6 +4,8 @@ import ProjectModal from '../../components/ProjectModal';
 import catz from '../../assets/catz-factz.png';
 import todo from '../../assets/to-do-list.png';
 import trybeer from '../../assets/trybeer_v2.png';
+import cookmaster from '../../assets/cook.png';
+
 import styles from './projects.module.css';
 
 export default function Projects() {
@@ -24,6 +26,13 @@ export default function Projects() {
           src={todo}
           gitlink="https://github.com/JorgeHSOsiro/TodoList"
           vid="https://www.youtube.com/embed/1Xu1zXdoGQE"
+        />
+        <ProjectModal
+          title="Cookmaster"
+          techs=" Javascript | Ejs | Bootstrap | Node | MySQL"
+          src={cookmaster}
+          gitlink="https://github.com/JorgeHSOsiro/cookmaster"
+          vid="https://www.youtube.com/embed/HtSka0QkXZs"
         />
         <ProjectModal
           title="Trybeer V2"
