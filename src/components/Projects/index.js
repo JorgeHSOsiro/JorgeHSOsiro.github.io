@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectModal from '../../components/ProjectModal';
+import ProjectModal from '../ProjectModal';
 import catz from '../../assets/catz-factz.png';
 import todo from '../../assets/to-do-list.png';
 import trybeer from '../../assets/trybeer_v2.png';
@@ -11,7 +11,7 @@ import styles from './projects.module.css';
 export default function Projects() {
   return (
     <div className={styles.mainProjContainer}>
-      <h2>Projetos</h2>
+      <h2 id="projects">Projetos</h2>
       <div className={styles.projectContainer}>
         <ProjectModal
           title="Catz Facts Project"

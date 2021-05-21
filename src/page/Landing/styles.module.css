@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;500;600&display=swap');
 
 .mainContainer{
-    color: #d3dddd;
+    color: #647777;
     padding: 25px;
     font-size: 18px;
 }
 
 .title {
-    margin-top: 40px;
+    margin-top: 90px;
     font-size: 30px;
     text-align: center;
 }
@@ -29,7 +29,7 @@
 }
 
 .subtitles {
-    color: #d3dddd;
+    color: #647777;
     margin: 25px;
     font-size: 35px;
 }

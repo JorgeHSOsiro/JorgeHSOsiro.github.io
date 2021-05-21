@@ -2,19 +2,20 @@
     display: flex;
     justify-content: center;
     margin-top: 8px;
-    padding: 0 25px;
+    width: 100%;
+    border-top: 2px solid #3A4545;
 }
 
 .contactIcon {
     display: inline-block;
-    font-size: 42px;
+    font-size: 64px;
     margin: 25px;
 }
 
 .contactIcon :first-child {
-    color: aliceblue;
+    color: #647777;
 }
 
 .contactIcon :first-child:hover{
-    color: #71FF61;
+    color: #A5C4C4;
 }

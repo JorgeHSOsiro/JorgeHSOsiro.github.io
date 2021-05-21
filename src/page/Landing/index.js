@@ -13,6 +13,7 @@ import {
   SiPython,
 } from 'react-icons/si';
 import portFoto from '../../assets/port_foto.jpg';
+import Projects from '../../components/Projects';
 import styles from './styles.module.css';
 
 export default function Landing() {
@@ -29,13 +30,13 @@ export default function Landing() {
           />
         </div>
       </div>
-      <div className={styles.description}>
+      <div id='sobre' className={styles.description}>
         <p className={styles.about}><strong className={styles.subtitles}>Olá!</strong>Sou o Jorge. Em minha jornada na tecnologia realizei cursos em Mobile Android na Digital House com fundamentos em Java e Web Fulstack na Trybe focado em React.js e Node.js. 
           Busco estar em constante aprendizado realizando cursos, participando de eventos, como a NLW da Rocketseat, e ouvindo podcasts de tecnologia. 
           Gosto muito de videogames, música e sim gosto de gatos! </p>
       </div>
       <div>
-        <h2 className={styles.subtitles}>Skills</h2>
+        <h2 id='skills' className={styles.subtitles}>Skills</h2>
         <div className={styles.skillsContainer}>
           <div className={styles.icons}>
             <SiJavascript className={styles.icon} />
@@ -83,6 +84,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
+      <Projects />
     </div>
   );
 }

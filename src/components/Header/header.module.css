@@ -1,17 +1,42 @@
-.indice{
-    padding: 24px;
-    text-align: center;
+.indice {
+  padding: 24px;
+  text-align: end;
+  box-shadow: 0px 4px 25px 4px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.indice > * {
-    color: #d3dddd;
+.indiceScrolled {
+  padding: 24px;
+  text-align: end;
+  position: fixed;
+  background-color: rgba(219, 223, 224, 0.7);
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.namae {
     font-size: 22px;
-    line-height: 28px;
-    margin-right: 32px;
-    text-align: left;
-    text-decoration: none;
 }
 
-.indice > *:hover {
-    color: #71FF61;
+.linksContainer {
+    margin-right: 90px;
+}
+
+.linksContainer > * {
+  color: #647777;
+  font-size: 22px;
+  line-height: 28px;
+  margin-right: 32px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.linksContainer > *:hover {
+  color: #A5C4C4;
+  cursor: pointer;
 }
