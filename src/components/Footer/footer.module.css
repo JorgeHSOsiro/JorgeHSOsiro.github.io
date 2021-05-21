@@ -16,6 +16,6 @@
     color: #647777;
 }
 
-.contactIcon :first-child:hover{
+.contactIcon :hover :first-child{
     color: #A5C4C4;
 }

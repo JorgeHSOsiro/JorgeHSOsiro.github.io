@@ -22,6 +22,19 @@ export default function Landing() {
       <div className={styles.title}>
         <h1>Jorge Henrique Shiniti Osiro</h1>
         <h2>Desenvolvedor FullStack</h2>
+      </div>
+      <div id="sobre" className={styles.aboutContainer}>
+        <div className={styles.description}>
+          <p className={styles.about}>
+            <strong className={styles.strong}>Olá!</strong>Sou o Jorge. Em
+            minha jornada na tecnologia realizei cursos em Mobile Android na
+            Digital House com fundamentos em Java e Web Fulstack na Trybe focado
+            em React.js e Node.js. Busco estar em constante aprendizado
+            realizando cursos, participando de eventos, como a NLW da
+            Rocketseat, e ouvindo podcasts de tecnologia. Gosto muito de
+            videogames, música e sim gosto de gatos!{' '}
+          </p>
+        </div>
         <div className={styles.imgContainer}>
           <img
             className={styles.myPhoto}
@@ -30,13 +43,9 @@ export default function Landing() {
           />
         </div>
       </div>
-      <div id='sobre' className={styles.description}>
-        <p className={styles.about}><strong className={styles.subtitles}>Olá!</strong>Sou o Jorge. Em minha jornada na tecnologia realizei cursos em Mobile Android na Digital House com fundamentos em Java e Web Fulstack na Trybe focado em React.js e Node.js. 
-          Busco estar em constante aprendizado realizando cursos, participando de eventos, como a NLW da Rocketseat, e ouvindo podcasts de tecnologia. 
-          Gosto muito de videogames, música e sim gosto de gatos! </p>
-      </div>
-      <div>
-        <h2 id='skills' className={styles.subtitles}>Skills</h2>
+
+      <div id="skills" className={styles.skills}>
+        <h2 className={styles.subtitles}>Skills</h2>
         <div className={styles.skillsContainer}>
           <div className={styles.icons}>
             <SiJavascript className={styles.icon} />

@@ -1,71 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;500;600&display=swap');
 
-.mainContainer{
-    color: #647777;
-    padding: 25px;
-    font-size: 18px;
+.mainContainer {
+  color: #647777;
+  padding: 25px 0;
+  font-size: 18px;
 }
 
 .title {
-    margin-top: 90px;
-    font-size: 30px;
-    text-align: center;
+  margin-top: 130px;
+  margin-bottom: 80px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .title :first-child {
-    margin-bottom: 24px;
-    font-size: 3rem;
+  margin-bottom: 24px;
+  font-size: 3rem;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .imgContainer {
-    margin: 32px;
+  margin: 32px;
 }
 
-.myPhoto{
-    width: 250px;
-    background-color: #6E3BAD;
-    border-radius: 60%;
-    padding: 5px;
-}
-
-.subtitles {
-    color: #647777;
-    margin: 25px;
-    font-size: 35px;
+.myPhoto {
+    margin-right: 105px;
+  width: 350px;
+  border-radius: 50%;
+  border: 2px solid #647777;
 }
 
 .description {
-    display: flex;
-    justify-content: center;
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.strong {
+  color: #647777;
+  margin: 25px;
+  font-size: 35px;
 }
 
 .about {
-    display: block;
-    margin: 16px 35px;
-    font-size: 24px;
-    line-height: 48px;
-    width: 70%;
-    text-align: center;
+  margin: 40px 0px 50px 55px;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.skills {
+  width: 100%;
+  background-color: black;
+  padding: 8px;
 }
 
 .skillsContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 55px;
+}
+
+.subtitles {
+  color: #f3f2f2;
+  margin: 75px 0 50px 65px;
+  font-size: 52px;
 }
 
 .icons {
-    background: #d3dddd;
-    padding: 8px;
-    margin: 16px;
-    border-radius: 8px;
-    color: #6E3BAD;
-    font-size: 32px;
-    display: flex;
-    gap: 1.5rem;
+  padding: 8px;
+  margin: 16px;
+  color: #f3f2f2;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .icon {
-    display: flex;
-    align-self: center;
+  display: flex;
+  align-self: center;
 }

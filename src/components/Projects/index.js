@@ -10,8 +10,8 @@ import styles from './projects.module.css';
 
 export default function Projects() {
   return (
-    <div className={styles.mainProjContainer}>
-      <h2 id="projects">Projetos</h2>
+    <div id="projects" className={styles.mainProjContainer}>
+      <h2>Projetos</h2>
       <div className={styles.projectContainer}>
         <ProjectModal
           title="Catz Facts Project"

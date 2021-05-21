@@ -28,7 +28,6 @@ export default function Header() {
       </div>
       <div className={styles.linksContainer}>
         <ScrollLink to="sobre" smooth={true} duration={500}>
-          <GiCat />
           Sobre
         </ScrollLink>
         <ScrollLink to="skills" smooth={true} duration={500}>

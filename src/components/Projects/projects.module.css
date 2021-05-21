@@ -1,7 +1,11 @@
+.mainProjContainer {
+  padding: 8px;
+}
+
 .mainProjContainer h2 {
   color: #647777;
-  margin: 25px;
-  font-size: 35px;
+  margin: 75px 0 45px 65px;
+  font-size: 52px;
 }
 
 .projectContainer {
