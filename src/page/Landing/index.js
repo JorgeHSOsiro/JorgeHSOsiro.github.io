@@ -44,9 +44,9 @@ export default function Landing() {
         </div>
       </div>
 
-      <div id="skills" className={styles.skills}>
+      <div id="skills" className={styles.skillsContainer}>
         <h2 className={styles.subtitles}>Skills</h2>
-        <div className={styles.skillsContainer}>
+        <div className={styles.skills}>
           <div className={styles.icons}>
             <SiJavascript className={styles.icon} />
             <p>Javascript</p>

@@ -30,7 +30,7 @@
 }
 
 .myPhoto {
-    margin-right: 105px;
+  margin-right: 105px;
   width: 350px;
   border-radius: 50%;
   border: 2px solid #647777;
@@ -53,22 +53,22 @@
   line-height: 48px;
 }
 
-.skills {
+.skillsContainer {
   width: 100%;
   background-color: black;
-  padding: 8px;
-}
-
-.skillsContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 55px;
+  padding: 8px 0;
 }
 
 .subtitles {
   color: #f3f2f2;
   margin: 75px 0 50px 65px;
   font-size: 52px;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 55px;
 }
 
 .icons {
