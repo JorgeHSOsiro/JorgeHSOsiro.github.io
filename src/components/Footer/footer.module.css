@@ -1,21 +1,27 @@
 .links {
-    display: flex;
-    justify-content: center;
-    margin-top: 8px;
-    width: 100%;
-    border-top: 2px solid #3A4545;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  width: 100%;
+  border-top: 2px solid #3a4545;
 }
 
 .contactIcon {
-    display: inline-block;
-    font-size: 64px;
-    margin: 25px;
+  display: inline-block;
+  font-size: 64px;
+  margin: 25px;
 }
 
 .contactIcon :first-child {
-    color: #647777;
+  color: #647777;
 }
 
-.contactIcon :hover :first-child{
-    color: #A5C4C4;
+.contactIcon :hover :first-child {
+  color: #a5c4c4;
+}
+
+@media only screen and (max-width: 500px) {
+  .contactIcon {
+    font-size: 44px;
+  }
 }

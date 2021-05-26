@@ -42,14 +42,12 @@ export default function ProjectModal({ title, src, vid, gitlink, techs }) {
           </div>
         </div>
         <div className={styles.modalContent}>
-          <div>
-            <iframe
-              className={styles.iframeTube}
-              src={vid}
-              frameBorder="0"
-              title={title}
-            />
-          </div>
+          <iframe
+            className={styles.iframeTube}
+            src={vid}
+            frameBorder="0"
+            title={title}
+          />
         </div>
       </Modal>
     </div>

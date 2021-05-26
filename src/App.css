@@ -2,9 +2,22 @@
 
 .main {
   font-family: Lexend, sans-serif;
-  /* background-image: linear-gradient(
-    to bottom right,
-    rgba(6, 14, 121, 1),
-    rgba(36, 194, 206, 0.5)
-  ); */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #949999; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(146, 156, 156, 0.8); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(123, 127, 128, 0.9); 
 }

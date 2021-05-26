@@ -20,12 +20,12 @@
 }
 
 .namae {
-    margin-left: 55px;
-    font-size: 22px;
+  margin-left: 55px;
+  font-size: 22px;
 }
 
 .linksContainer {
-    margin-right: 105px;
+  margin-right: 105px;
 }
 
 .linksContainer > * {
@@ -40,4 +40,23 @@
 .linksContainer > *:hover {
   color: #4c5c5c;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .namae {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .linksContainer {
+    margin-right: 45px;
+  }
+
+  .linksContainer > * {
+    color: black;
+    font-size: 15px;
+
+    line-height: 20px;
+    margin-right: 12px;
+  }
 }

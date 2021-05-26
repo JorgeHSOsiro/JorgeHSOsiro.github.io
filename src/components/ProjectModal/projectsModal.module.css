@@ -1,18 +1,19 @@
 .projImage {
   border-radius: 10px;
-  width: 60%;
-  height: 300px;
-  margin: 15px;
+  width: 40em;
+  height: 24em;
 }
 
 .modal {
   background-color: black;
   color: #d3dddd;
   padding: 32px;
-  margin: 55px;
+  margin: 5%;
+  max-height: 75vh;
   text-align: center;
-  border-radius: 15px;
   position: relative;
+  overflow-y: auto;
+  border-radius: 7px;
 }
 
 .modal h2 {
@@ -40,13 +41,14 @@
   color: #d3dddd;
 }
 
-.projectGit :first-child:hover {
-  color: #71ff61;
+.projectGit :hover :first-child {
+  color: #4c5c5c;
 }
 
 .iframeTube {
-  width: 1000px;
-  height: 550px;
+  width: 70%;
+  height: 55vh;
+  margin-bottom: 50px;
 }
 
 .closeBtn {
@@ -60,4 +62,17 @@
   outline: none;
   border-radius: 45px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .projImage {
+    border-radius: 10px;
+    width: 25em;
+    height: 15em;
+  }
+
+  .iframeTube {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
