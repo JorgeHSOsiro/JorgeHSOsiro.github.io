@@ -42,6 +42,16 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 640px) {
+  .namae {
+    margin-left: 15px;
+  }
+
+  .linksContainer {
+    margin-right: 35px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .namae {
     margin-left: 5px;
